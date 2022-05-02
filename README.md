@@ -18,6 +18,15 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
     
     
  
-- **GMac**  
+- **Codes**  
 
    This folder contains all the executable code required to run our proposed algorithm, **Gmac**.
+   
+    1. **main_GMac.R** : contains the main script that executes GMac over all the datasets belonging to the folder "Microarray-data". It needs to source to other R scripts  a) GMac_bic.R and b) AMI.R 
+    2. **GMac_bic.R**  : It is the function that takes the input of the feature matrix, X optimize the algorithm, and returns the number of clusters, K and cluster configurations, $\delta$. 
+    3. **AMI.R**       : It is the function that calculates both Normalized Mutual Index (NMI) and Adjusted Mutual Index (AMI) between two vectors. 
+    4. **Mvec.R**      : It is the function that takes the input of the feature matrix, X, and returns the M matrix, where the rows of M-matrix are the m-vectors of each object. 
+    5. **T-sne-umap-plot.R** : The code that generates the t-sne and Umap plot using the original features vectors, i.e, the rows of X and the transformed M-vectors, i.e the rows of M. 
+    6. **Arm1.csv**    : The original feature matrix from the ``Armstrong-v1" dataset. 
+   
+    
