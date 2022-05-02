@@ -10,7 +10,7 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
 
 ## Table of Contents 
 
-- Microarray-data
+- **Microarray-data**
 
      This folder contains all the post-processed 32 microarray datasets used to compare the clustering algorithms. 
      We downloaded the raw data from https://schlieplab.org/Static/Supplements/CompCancer/datasets.htm.  
@@ -18,4 +18,6 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
     
     
  
-- GMac  
+- **GMac**  
+
+   This folder contains all the executable code required to run our proposed algorithm, **Gmac**
