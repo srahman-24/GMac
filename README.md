@@ -20,4 +20,4 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
  
 - **GMac**  
 
-   This folder contains all the executable code required to run our proposed algorithm, **Gmac**
+   This folder contains all the executable code required to run our proposed algorithm, **Gmac**.
