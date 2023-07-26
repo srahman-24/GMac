@@ -36,4 +36,5 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
 
     `GMac` is implement as `RJclust()` in the R Package in [[https://cran.r-project.org/web/packages/RJcluster/index.html]]
     This python notebook shows how to use `rpy2` package to read the `RJcluster` R package in Python. 
-    This will enable Python users to implement GMac on their high-dimensional dataset, aka RJclust( ) function via the R package. 
+    This will enable Python users to implement GMac on their high-dimensional dataset, aka RJclust() function via the R package.
+    There is a resource https://willfondrie.com/2022/01/how-to-use-r-packages-in-python/ for a guid to use R packages in Python. 
