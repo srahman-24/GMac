@@ -32,3 +32,8 @@ This software provides a hyperparameter-free, fast and efficient clustering fram
     6. **Arm1.csv**    : The original feature matrix from the ``Armstrong-v1" dataset. 
    
     
+ - **RJcluster-Python-implementation**
+
+    `GMac` is implement as `RJclust()` in the R Package in [[https://cran.r-project.org/web/packages/RJcluster/index.html]]
+    This python notebook shows how to use `rpy2` package to read the `RJcluster` R package in Python. 
+    This will enable Python users to implement GMac on their high-dimensional dataset, aka RJclust( ) function via the R package. 
